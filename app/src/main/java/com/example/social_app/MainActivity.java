@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
             SharedPreferences.Editor editor = sharedPreferences.edit();
             editor.clear().apply();
 
-            Toast.makeText(this, "user deleted " + y, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "user deleted", Toast.LENGTH_SHORT).show();
 
             intent = new Intent(MainActivity.this, SignInActivity.class);
             startActivity(intent);
