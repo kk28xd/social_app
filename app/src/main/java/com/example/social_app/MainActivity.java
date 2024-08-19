@@ -68,10 +68,10 @@ public class MainActivity extends AppCompatActivity {
         }
 
         //tv_id.setText("your id : " + id);
-        tv_name.setText("your name: " + name);
-        tv_phone.setText("your phone number: " + phoneNumber);
-        tv_email.setText("your email: " + emailAddress);
-        tv_password.setText("your password: " + password);
+        tv_name.setText(name);
+        tv_phone.setText(phoneNumber);
+        tv_email.setText(emailAddress);
+        tv_password.setText(password);
 
         log_out.setOnClickListener(
                 v -> {
